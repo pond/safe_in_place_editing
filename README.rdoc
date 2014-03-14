@@ -1,4 +1,4 @@
-= Safe In Place Editing v2.00 (2013-10-22)
+= Safe In Place Editing v2.0.1 (2014-03-14)
 
 Early versions of Ruby On Rails shipped with an in-place editing mechanism
 which allowed simple edits to be performed on model attribute values without
@@ -313,6 +313,12 @@ Ideally please raise issues, suggestions, pull requests etc. via GitHub:
 Alternatively free to contact me at "ahodgkin@rowing.org.uk".
 
 
+== History
+
+* v2.0.1 (2014-03-14): Fixed an engine definition error that broke the "Rails" constant in controllers
+* v2.0.0 (2013-10-22): Original "gem" based release
+
+
 = Copyright
 
-Copyright (c) 2008-2013 Hipposoft, released under the MIT license.
+Copyright (c) 2008-2014 Hipposoft, released under the MIT license.

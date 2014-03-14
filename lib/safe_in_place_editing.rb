@@ -8,8 +8,6 @@ if defined? ActionController
 end
 
 module SafeInPlaceEditing
-  module Rails
-    class Engine < ::Rails::Engine
-    end
+  class Engine < ::Rails::Engine
   end
 end
